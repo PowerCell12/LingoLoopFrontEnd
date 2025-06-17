@@ -12,4 +12,12 @@ export class RegisterComponent {
   email = new FormControl('');
 
 
+  submitForm(e: Event){
+    e.preventDefault();
+
+    console.log(this.email.value)
+
+
+  }
+
 }
